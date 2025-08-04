@@ -30,7 +30,7 @@ A modern, responsive blog platform built with React, TypeScript, and Tailwind CS
 - npm or yarn
 
 ## Project Structure
--
+<pre>
 blog-website/
 ├── public/
 ├── src/
@@ -53,4 +53,4 @@ blog-website/
 ├── tailwind.config.js
 ├── tsconfig.json
 └── vite.config.ts
----
+</pre>
