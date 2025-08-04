@@ -29,36 +29,8 @@ A modern, responsive blog platform built with React, TypeScript, and Tailwind CS
 - Node.js (version 16 or higher)
 - npm or yarn
 
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd blog-website
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
 ## Project Structure
 
-```
 blog-website/
 ├── public/
 ├── src/
@@ -81,39 +53,3 @@ blog-website/
 ├── tailwind.config.js
 ├── tsconfig.json
 └── vite.config.ts
-```
-
-## Deployment
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Upload the `dist` folder to Netlify
-3. Set the build command to `npm run build`
-4. Set the publish directory to `dist`
-
-### Deploy to Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
